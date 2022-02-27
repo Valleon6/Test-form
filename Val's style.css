@@ -1,0 +1,63 @@
+body{
+    background: red;
+    color:rgb(241, 20, 149);
+    height:100vh;
+    width:100vw;
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  /* height: ; I am can't see the effect of height */
+  /*  width; I am can't see the effect of width */
+}
+
+form{
+    background: yellow;
+    border-radius:10%;
+    padding:20px;
+    width:50%;   
+    /* height: ; I am can't see the effect of height */
+
+}
+
+h1{
+    color:black;
+    font-style:italic;
+}
+
+.text-group{
+    height: 25px;
+    width: 70%;
+}
+
+h3{
+    color:green;
+    font-size:20px;
+}
+
+input{
+    margin-bottom: 10px;
+}
+#number{
+width: 50%;
+height:20px;
+}
+textarea{
+    width:90%;
+    }
+.but{
+    display:flex;
+    justify-content: center;   
+
+}
+button{
+    justify-content: center;
+    width:40%;
+    border-radius: 20px;
+    color:blue;
+    background-color: orangered;
+    margin-top: 10px;
+    height:25px;
+}
